@@ -7,5 +7,6 @@ media/xmlconnect/
 media/catalog/product/cache/
 var/cache/
 var/sessions/
+var/session/
 var/locaks/
 var/preport/
