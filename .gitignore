@@ -10,3 +10,4 @@ var/sessions/
 var/session/
 var/locaks/
 var/preport/
+var/locks/*
