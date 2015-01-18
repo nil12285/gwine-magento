@@ -4,8 +4,8 @@ media/downloadable/
 media/.htaccess
 media/import/
 media/xmlconnect/
-media/catalog/product/cache/
-var/cache
-var/sessions
-var/locaks
-var/preport
+media/catalog/product/cache/*
+var/cache/*
+var/sessions/*
+var/locaks/*
+var/preport/*
