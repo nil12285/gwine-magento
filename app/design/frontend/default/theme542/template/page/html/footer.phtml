@@ -46,12 +46,6 @@
 							<address><?php echo $this->getCopyright() ?></address>
 						<?php echo $this->getChildHtml('paypal.partner.right.logo'); ?>
 						<?php echo $this->getChildHtml('store_switcher') ?>
-						<div class="clear"></div>
-						<?php $current_page = Mage::app()->getFrontController()->getRequest()->getRouteName(); 
-							if ($current_page == 'cms'):
-								echo 'More <a rel="nofollow" href="http://www.templatemonster.com/category.php?category=0&type=27" target="_blank"> at TemplateMonster.com</a>';
-							endif;
-						?>
 						</div>
 						<div class="clear"></div>
 					  </div>

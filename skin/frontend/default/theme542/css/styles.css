@@ -32,7 +32,7 @@ html {
     width: 100%;
 }
 .catalog-product-compare-index > div { min-width:600px;}
-
+/*
 body          { 
 	font-family: Arial;
 	font-size:13px; 
@@ -44,14 +44,16 @@ body          {
 	-webkit-text-size-adjust: none; 
 	background: url(../images/body-bg.gif) repeat left top ;
 }
+*/
+body{background-color:#F9F9F9; font:12px/1.55 Arial, Helvetica, sans-serif; color:#2f2f2f; text-align:center;}
 body > .wrapper { position:relative;}
 .wrapper-tail{}
 
 img           { border:0; vertical-align:top; }
 
-a             { color:#fff; 	text-decoration:none;}
-a:hover       { text-decoration:none; color:#da5121; }  
-a:focus 	  {outline:0; text-decoration: none; color: #da5121;}
+a             { color:#78004b; 	text-decoration:none;}
+a:hover       { text-decoration:none; color:#87075a; }  
+a:focus 	  {outline:0; text-decoration: none; color: #87075a;}
 .form-control:focus,
 .footer .block-subscribe .input-box input:focus {
 				border-color: #77503e;
@@ -173,7 +175,7 @@ button.button span:before,
 .page-empty { background:#fff; padding:20px; text-align:left; }
 .page-popup { padding:20px; text-align:left; margin:0 auto; background:#fff;}
 .page-popup  .ratings .rating-box {float:none; margin:0 auto 10px;}
-.main-container { padding:30px 0; position:relative; z-index:1; background: #262220;  }
+.main-container { padding:30px 0; position:relative; z-index:1; background: #f5f5f5;  }
 .main { }
 
 /* Base Columns */
@@ -256,11 +258,11 @@ button.button span span {padding:0 10px; display:block; float:left; }
 
 button.button > span,
 .page-sitemap .links a {
-	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#70412d', endColorstr='#553126'); /*IE6-9 */
-	background: -webkit-gradient(linear, left top, left bottom, from(#70412d), to(#553126)); /*  webkit */
-	background: -moz-linear-gradient(top,  #70412d,  #553126); /*firefox 3.6+ */
-	background: -o-linear-gradient(top,  #70412d,  #553126); /*  Opera 11.10+ */
-	background: -ms-linear-gradient(top,  #70412d,  #553126); /*  IE10+ */
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#961669', endColorstr='#553126'); /*IE6-9 */
+	background: -webkit-gradient(linear, left top, left bottom, from(#961669), to(#553126)); /*  webkit */
+	background: -moz-linear-gradient(top,  #961669,  #553126); /*firefox 3.6+ */
+	background: -o-linear-gradient(top,  #961669,  #553126); /*  Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #961669,  #553126); /*  IE10+ */
 	border: 1px solid #7d5340;
 	color:#fff;
 	font-size:13px;
@@ -493,11 +495,11 @@ div.alert button:hover{ cursor:pointer; background-position:0 -9px;}
 .page-title,
 .category-title { 
 	margin:0 0 30px;
-	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#70412d', endColorstr='#543126'); /*IE6-9 */
-	background: -webkit-gradient(linear, left top, left bottom, from(#70412d), to(#543126)); /*  webkit */
-	background: -moz-linear-gradient(top,  #70412d,  #543126); /*firefox 3.6+ */
-	background: -o-linear-gradient(top,  #70412d,  #543126); /*  Opera 11.10+ */
-	background: -ms-linear-gradient(top,  #70412d,  #543126); /*  IE10+ */
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#961669', endColorstr='#543126'); /*IE6-9 */
+	background: -webkit-gradient(linear, left top, left bottom, from(#961669), to(#543126)); /*  webkit */
+	background: -moz-linear-gradient(top,  #961669,  #543126); /*firefox 3.6+ */
+	background: -o-linear-gradient(top,  #961669,  #543126); /*  Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #961669,  #543126); /*  IE10+ */
 	border: 1px solid #7d5340; 
 	padding: 10px 16px; 
 	border-radius: 6px;
@@ -1310,7 +1312,7 @@ tr.summary-details-excluded { font-style:italic; }
 
 .col-main .regular-price .price,
 .widget-catalogsale-products .special-price .price,
-.col-main .special-price .price {font-size: 18px; color: #fff; font-weight: normal; line-height: 18px;}
+.col-main .special-price .price {font-size: 18px; color: #87075a; font-weight: normal; line-height: 18px;}
 .widget-catalogsale-products .special-price .price,
 .col-main .special-price .price {color:#da5121; }
 
@@ -1427,11 +1429,11 @@ tr.summary-details-excluded { font-style:italic; }
 	font-size:18px;
 	line-height:18px;
 	color:#fff;
-	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#70412d', endColorstr='#553126'); /*IE6-9 */
-	background: -webkit-gradient(linear, left top, left bottom, from(#70412d), to(#553126)); /*  webkit */
-	background: -moz-linear-gradient(top,  #70412d,  #553126); /*firefox 3.6+ */
-	background: -o-linear-gradient(top,  #70412d,  #553126); /*  Opera 11.10+ */
-	background: -ms-linear-gradient(top,  #70412d,  #553126); /*  IE10+ */
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#961669', endColorstr='#553126'); /*IE6-9 */
+	background: -webkit-gradient(linear, left top, left bottom, from(#961669), to(#553126)); /*  webkit */
+	background: -moz-linear-gradient(top,  #961669,  #553126); /*firefox 3.6+ */
+	background: -o-linear-gradient(top,  #961669,  #553126); /*  Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #961669,  #553126); /*  IE10+ */
 	border: 1px solid #231b17; 
 	padding: 10px 16px; 
 	border-radius: 6px;
@@ -2759,7 +2761,7 @@ body div.shadow {
 .footer-container{ 
 	padding:30px 0; 
 	overflow: hidden;
-	background: #342f2d;
+	background: #87075a;
 	border-top: 1px solid #3e3937;
 	border-radius: 0 0 6px 6px;
 
@@ -2770,7 +2772,7 @@ body div.shadow {
 .footer h3 {position:relative; font-weight: normal; font-size: 17px; color: #fff; line-height: 17px; margin-bottom:16px;}
 .footer h3 {float: left; line-height: 26px; margin-right: 10px;}
 .footer ul li {	display:block;	padding:0 0 5px;}
-.footer ul li a {	display:inline-block; color: #7D7D7D; font-size: 13px;	text-decoration:none;}
+.footer ul li a {	display:inline-block; color: #fff; font-size: 13px;	text-decoration:none;}
 .footer ul li a:hover {color: #da5121;}
 .footer address {float: right; }
 .footer .list-icon {overflow: hidden; margin-bottom: 20px;}
@@ -2784,7 +2786,7 @@ body div.shadow {
 .footer-col.last { margin-right:0;}
 .footer-col.contacts,
 .footer-col.last {width: 23%;}
-.footer-col.contacts p {font-size: 13px; color: #7d7d7d; line-height: 19px; margin-bottom: 12px;}
+.footer-col.contacts p {font-size: 13px; color: #fff; line-height: 19px; margin-bottom: 12px;}
 .footer-col.contacts p:before {content: "\f041"; font-size: 28px; line-height: 28px; margin-right: 10px; display: block; float: left;}
 .footer-col.contacts p.tel:before {content: "\f095";}
 
