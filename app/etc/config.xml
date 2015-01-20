@@ -150,10 +150,4 @@
     <varien>
         <class>Varien</class>
     </varien>
-    <aws>
-        <s3>
-            <AccessKey>AKIAJ4YNDNM4V5CREA5A</AccessKey>
-            <SecretKey>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</SecretKey>
-        </s3>
-    </aws>
 </config>

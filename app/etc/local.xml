@@ -45,7 +45,7 @@
                     <password><![CDATA[gj6gj6gj6]]></password>
                     <dbname><![CDATA[gwine-magento]]></dbname>
                     <initStatements><![CDATA[SET NAMES utf8]]></initStatements>
-                    <model><![CDATA[mysql4]]></model>
+                    <model><![CDATA[mysql5]]></model>
                     <type><![CDATA[pdo_mysql]]></type>
                     <pdoType><![CDATA[]]></pdoType>
                     <active>1</active>
